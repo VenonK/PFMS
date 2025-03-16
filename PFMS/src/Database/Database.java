@@ -19,7 +19,7 @@ public class Database {
     // Database connection credentials
     final static String url = "jdbc:postgresql://localhost:5432/pfms";
     final static String user = "postgres";
-    final static String password = "Notaxmar444";
+    final static String password = "17zMsnG5Wx";
     
     private static void connect() {
         try {
