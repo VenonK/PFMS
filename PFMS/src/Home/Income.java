@@ -73,7 +73,7 @@ public class Income {
 	}
 	
 	@SuppressWarnings("unchecked")
-	private static TableView<Transaction> createExpenseList() {
+	private static TableView<Transaction> createIncomeList() {
 	    TableView<Transaction> table = new TableView<>();
 
 	    // Columns
@@ -176,7 +176,7 @@ public class Income {
 	public static BorderPane setIncomeRoot() {
 		HBox header = createHeader();
 		VBox overview = createOverviewSection();
-		TableView<Transaction> table = createExpenseList();
+		TableView<Transaction> table = createIncomeList();
 	    root = new BorderPane();
 	    root.setTop(header);
 	    root.setCenter(table);
